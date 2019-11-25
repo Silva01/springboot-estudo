@@ -31,7 +31,7 @@ public class PlaylistService {
     }
 
     public void atualizar(Playlist playlist) {
-        dao.save(playlist);
+        salvar(playlist);
     }
 
     public void excluir(long id) {

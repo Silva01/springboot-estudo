@@ -34,7 +34,7 @@ public class MusicaService {
     }
 
     public void atualizar(Musica musica) {
-        dao.save(musica);
+        salvar(musica);
     }
 
     public void excluir(long musicaId) {
